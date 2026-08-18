@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/adaptive_utility_report.egg-info/PKG-INFO
+src/adaptive_utility_report.egg-info/SOURCES.txt
+src/adaptive_utility_report.egg-info/dependency_links.txt
+src/adaptive_utility_report.egg-info/requires.txt
+src/adaptive_utility_report.egg-info/top_level.txt
+src/aur/__init__.py
+src/aur/gains.py
+src/aur/percentile.py
+src/aur/read_data.py
+src/aur/report.py
+src/aur/spread.py
+tests/test_gains.py
