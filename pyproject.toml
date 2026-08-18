@@ -1,18 +1,48 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "adaptive-utility-report"
 version = "0.1.0"
-description = "A reporting framework for evaluating the historical utility of adaptive systems."
+description = "A reporting framework for evaluating the utility of adaptive systems."
 readme = "README.md"
 requires-python = ">=3.10"
+
+authors = [
+    {name = "Gabriel Duque Díaz"}
+]
+
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+
+dependencies = [
+    "numpy",
+    "pandas"
+]
+
+keywords = [
+    "adaptive systems",
+    "adaptive gating",
+    "machine learning",
+    "model evaluation",
+    "research"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0"
 ]
+
+[project.urls]
+Homepage = "https://github.com/GepoCode345/Adaptive-Utility-Report"
+Repository = "https://github.com/GepoCode345/Adaptive-Utility-Report"
+Issues = "https://github.com/GepoCode345/Adaptive-Utility-Report/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
